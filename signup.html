@@ -1,0 +1,27 @@
+<!-- #### Frontend (HTML + JavaScript + CSS)
+```html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Group Finder</title>
+   <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    
+    <form id="user-form">
+        <h1>Create Profile</h1>
+        <input type="text" placeholder="Username" id="username" required  minlength="3" maxlength="30"/>
+        <input type="email" placeholder="yourEmail" id="usereamil" required minlength="10" maxlength="100" />
+        <input type="password" placeholder="Password" id="password" required />
+        <input type="text" placeholder="Name" id="name" required />
+        <input type="text" placeholder="Subjects (comma-separated)" id="subjects" required />
+        <button type="submit">Create Profile</button>
+        <p id="alert-err" class="alerterr"></p>
+        <h1 id="partner-list" class="partner-list">partner-list</h1>
+    </form>
+
+    <script src="./index.js"></script>
+</body>
+</html>

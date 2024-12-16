@@ -1,0 +1,117 @@
+<!-- #### Frontend (HTML + JavaScript + CSS)
+```html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Group Finder</title>
+   <!-- <link rel="stylesheet" href="./styles.css"> -->
+    <style>
+        body {
+            width: 100%;
+            background-color: rgb(253, 208, 208);
+            background-color: goldenrod;
+            margin-top: 5px;
+            color: white;
+            position: fixed;
+        }
+        .navigation-bar {
+            width: 100%;
+            height: 10vh;
+            position: fixed;
+            background-color: rgb(253, 208, 208);
+            display: flex;
+            flex-direction: row;
+            top: 0px;
+            left: 0px;
+            justify-content: space-between;
+            padding-left: 30px;
+            border-bottom: solid; 
+            font-size: 40px; 
+            background-color: navy;
+        }
+        .study-log {
+            display:flex;
+            flex-direction: row;
+            padding: 10px;
+        }
+        .study-logo .icon{
+            font-size: 50px;
+        }
+        .styudy-log span {
+            font-size: 40px;
+        }
+        .navigation-a {
+            padding-right: 50px;
+            
+        }
+        .navigation-a a {
+            text-decoration: none;
+            color:white;
+            font-size: 40px;
+            font-family: 'Times New Roman', Times, serif;
+            margin: 10px;
+            /* background-color: rgb(253, 208, 208); */
+            border-radius: 5px;
+            
+           
+        }
+    
+        .main-body-section {
+            width: 100%;
+            height: 90vh;
+            padding: 5px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            /* background-color: blanchedalmond; */
+            
+        }
+        .main-body-section div {
+            margin: 10px;
+            /* background-color: aquamarine; */
+            padding: 80px;
+
+            
+        }
+        .home-description {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        .home-image {
+            font-size: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <header id="navigation-bar" class="navigation-bar">
+        <div class="study-logo" id="study-logo">
+            <icon id="icon" class="icon">🎓</icon>
+            <span>Study partners</span>
+        </div>
+
+        <div id="navigation-a" class="navigation-a">
+            <a href="signin.html">signin</a>
+            <a href="signup.html">signup</a>
+        </div>
+    </header>
+
+    <section id="main-body-section" class="main-body-section">
+        <div class="home-description" id="home-description">
+            <h1>Welcome To Study partner</h1>
+            <h2>For College Student Who Wants Cooperation in studies Globally</h2>
+            <!-- <img src="./images/internal eye.jpg" alt=""> -->
+             <icon class="home-image">🧑‍🎓🎓🧑🏾‍🎓</icon>
+             <icon class="home-image">📚🖊️</icon>
+
+        </div>
+    </section>
+
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
